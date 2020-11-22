@@ -1,4 +1,4 @@
 # marukofar.github.io
-## Far
+# Biography
 
-![N|Far](https://www.marukofar.xyz/img/contact-img.jpg)
+![Far](https://www.marukofar.xyz/img/contact-img.jpg)
