@@ -11,7 +11,12 @@ Hi I'm Fareed Marnleb I receive my bachelor degree with a dual major Software En
 - ***2016*** IT Support at Malisa Villa Suites
 - ***2019 - Present***  System Engineer at T.logical Resoltion Co., Ltd
 
+# AKA
 
+<html>
+          <head>
+            <title>***"Maruko Far"***</title>
+          </head>
 
 
 ![Far](https://www.marukofar.xyz/img/contact-img.jpg)
