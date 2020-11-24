@@ -13,10 +13,8 @@ Hi I'm Fareed Marnleb I receive my bachelor degree with a dual major Software En
 
 # AKA
 
-<html>
-          <head>
-            <title>***"Maruko Far"***</title>
-          </head>
+> ***"Maruko Far"***
+          
 
 
 ![Far](https://www.marukofar.xyz/img/contact-img.jpg)
