@@ -41,7 +41,7 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 **Step 10:**  Now you need to enter the confirmation code,  then click **Next.** 
 
-![](images/10.png)
+![](images/10-1.png)
 
 **Step 11:** Confirmation screen with a backup code, then click **Got it** when you're finished with this screen.
 
