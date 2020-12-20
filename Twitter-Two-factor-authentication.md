@@ -33,7 +33,7 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 **Step 8:** Click **Send code.**
 
-![](images/09.png)
+![](images/9.png)
 
 **Step 9:** **Code** sent via text message to you. 
 
