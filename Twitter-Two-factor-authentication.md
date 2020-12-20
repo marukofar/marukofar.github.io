@@ -15,15 +15,15 @@
 ![](images/03.png) 
 
 **Step 5:** Three methods will appear on the screen choose anyone:
-- Text message
-- Authentication app
-- Security key
+- **Text message**
+- **Authentication app**
+- **Security key**
 
 Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 ![](images/06.png)
 
-####  Step 6: Click Get Start 
+**Step 6:** Click **Get Start** 
 
 ![](images/07.png)
 
