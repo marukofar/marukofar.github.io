@@ -1,6 +1,4 @@
-# Two-factor authentication On Twitter
-
-## วิธีเปิดใช้งานการยืนยันตัวตนแบบสองชั้นทวิตเตอร์ 
+# How to enable twitter two-factor authentication via text message.
 
 ####  Step 1: Open a browser and visit twitter.com.
 ####  Step 2: Log in to your Twitter account by entering your user ID and password.
