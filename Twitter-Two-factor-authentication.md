@@ -6,7 +6,7 @@
 
 ![](images/01.png)
 
->  2. 
+>  2. กด
 
 ![](images/02.png)
 
