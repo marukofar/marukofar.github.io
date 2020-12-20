@@ -9,7 +9,7 @@
 
 ![](images/02.png)
 
-####  Step 4:  
+####  Step 4: Click Security > Two-Factor Authentication. 
 
 ![](images/03.png) 
 
