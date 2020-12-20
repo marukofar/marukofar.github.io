@@ -2,8 +2,8 @@
 
 ## วิธีเปิดใช้งานการยืนยันตัวตนแบบสองชั้นทวิตเตอร์ 
 
->  Step 1: Open a browser and visit twitter.com.
->  Step 2: Log in to your Twitter account by entering your user ID and password.
+####  Step 1: Open a browser and visit twitter.com.
+####  Step 2: Log in to your Twitter account by entering your user ID and password.
 
 ![](images/01.png)
 
