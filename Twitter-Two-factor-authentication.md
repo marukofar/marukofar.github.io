@@ -47,11 +47,11 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 ![](images/11.png)
 
->  12. 
+>  The two-factor authentication has been enabled via text message. From now onwards whenever you log in to your account on twitter.com
 
 ![](images/13.png)
-
->  13. 
-
 ![](images/14.png)
 
+
+>  Fareed Marnleb
+>  Jaray Paensong
