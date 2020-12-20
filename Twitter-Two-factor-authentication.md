@@ -29,7 +29,7 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 **Step 7:** Enter your password, then click **Verify.**
 
-![](images/08.png)
+![](images/8.png)
 
 **Step 8:** Click **Send code.**
 
