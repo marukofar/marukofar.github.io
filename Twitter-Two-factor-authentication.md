@@ -1,28 +1,28 @@
 # How to enable twitter two-factor authentication via text message.
 
-####  Step 1: Open a browser and visit twitter.com.
-####  Step 2: Log in to your Twitter account by entering your user ID and password.
+**Step 1:** Open a browser and visit [Twitter.com](https://twitter.com)
+**Step 2:** Log in to your Twitter account by entering your user ID and password.
 
 ![](images/01.png)
 
-####  Step 3: Go to the Accounts section (More) > Setting and privacy > Security and account access.
+**Step 3:** Go to the **Accounts section (More)** > **Setting and privacy** > **Security and account access.**
 
 ![](images/02.png)
 
-####  Step 4: Click Security > Two-Factor Authentication. 
+**Step 4:** Click **Security** > **Two-Factor Authentication.** 
 
 ![](images/03.png) 
 
-####  Step 5: Three methods will appear on the screen choose anyone:
+**Step 5:** Three methods will appear on the screen choose anyone:
 - Text message
 - Authentication app
 - Security key
 
-Here is sign up via text message: Click the checkbox next to a Text message.
+Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 ![](images/06.png)
 
->  5. 
+####  Step 6: Click Get Start 
 
 ![](images/07.png)
 
