@@ -12,7 +12,7 @@
 
 **Step 4:** Click **Security** > **Two-Factor Authentication.** 
 
-![](images/03.png) 
+![](images/3.png) 
 
 **Step 5:** Three methods will appear on the screen choose anyone:
 - **Text message**
