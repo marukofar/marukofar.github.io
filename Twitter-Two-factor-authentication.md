@@ -9,12 +9,16 @@
 
 ![](images/02.png)
 
->  3. 
+####  Step 4:  
 
-![](images/03.png)
+![](images/03.png) 
 
->  4. 
+####  Step 5: Three methods will appear on the screen choose anyone:
+- Text message
+- Authentication app
+- Security key
 
+Here is sign up via text message: Click the checkbox next to a Text message.
 ![](images/06.png)
 
 >  5. 
