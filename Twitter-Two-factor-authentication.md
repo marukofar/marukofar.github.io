@@ -45,12 +45,12 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 **Step 11:** Confirmation screen with a backup code, then click **Got it** when you're finished with this screen.
 
-![](images/11.png)
+![](images/11-1.png)
 
 >  The two-factor authentication has been enabled via text message. From now onwards whenever you log in to your account on [Twitter.com](https://twitter.com).
 
 ![](images/13.png)
-![](images/14.png)
+![](images/14-1.png)
 
 
 >  -  Fareed Marnleb
