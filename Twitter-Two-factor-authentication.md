@@ -7,7 +7,7 @@
 
 ![](images/01.png)
 
-####  Go to the Accounts section (More) > Setting and privacy > Security and account access.
+####  Step 3: Go to the Accounts section (More) > Setting and privacy > Security and account access.
 
 ![](images/02.png)
 
