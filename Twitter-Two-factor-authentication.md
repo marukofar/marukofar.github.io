@@ -4,57 +4,49 @@
 
 >  1. เข้าสู่ระบบทวิตเตอร์ 
 
-![](img/01.png)
+![](images/01.png)
 
 >  2. 
 
-![](img/02.png)
+![](images/02.png)
 
 >  3. 
 
-![](img/03.png)
+![](images/03.png)
 
 >  4. 
 
-![](img/04.png)
+![](images/06.png)
 
 >  5. 
 
-![](img/05.png)
+![](images/07.png)
 
 >  6. 
 
-![](img/06.png)
+![](images/08.png)
 
 >  7. 
 
-![](img/07.png)
+![](images/09.png)
 
 >  8. 
 
-![](img/08.png)
+![](images/10.png)
 
 >  9. 
 
-![](img/09.png)
+![](images/11.png)
 
 >  10. 
 
-![](img/10.png)
+![](images/12.png)
 
 >  11. 
 
-![](img/11.png)
+![](images/13.png)
 
 >  12. 
 
-![](img/12.png)
-
->  13. 
-
-![](img/13.png)
-
->  14. 
-
-![](img/14.png)
+![](images/14.png)
 
