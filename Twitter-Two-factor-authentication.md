@@ -1,8 +1,9 @@
-# Two factor authentication On Twitter
+# Two-factor authentication On Twitter
 
 ## วิธีเปิดใช้งานการยืนยันตัวตนแบบสองชั้นทวิตเตอร์ 
 
->  1. เข้าสู่ระบบทวิตเตอร์ 
+>  Step 1: Open a browser and visit twitter.com.
+    Step 2: Log in to your Twitter account by entering your user ID and password.
 
 ![](images/01.png)
 
