@@ -53,6 +53,5 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 ![](images/14.png)
 
 
->  Fareed Marnleb
-
->  Jaray Paensong
+>  -  Fareed Marnleb
+>  -  Jaray Paensong
