@@ -27,11 +27,11 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 ![](images/07.png)
 
->  6. 
+**Step 7:** Enter your password, then click **Verify.**
 
 ![](images/08.png)
 
->  7. 
+**Step 8:** Click **Send code.**
 
 ![](images/09.png)
 
