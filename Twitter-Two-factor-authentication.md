@@ -23,7 +23,7 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 ![](images/06.png)
 
-**Step 6:** Click **Get Start** 
+**Step 6:** Click **Get Started** 
 
 ![](images/07.png)
 
