@@ -19,6 +19,7 @@
 - Security key
 
 Here is sign up via text message: Click the checkbox next to a Text message.
+
 ![](images/06.png)
 
 >  5. 
