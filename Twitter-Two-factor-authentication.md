@@ -42,12 +42,10 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 **Step 10:**  Now you need to enter the confirmation code,  then click **Next.** 
 
 ![](images/10.png)
-you will see a confirmation screen with a backup code.
+
+**Step 11:** Confirmation screen with a backup code, then click **Got it** when you're finished with this screen.
+
 ![](images/11.png)
-
->  11. 
-
-![](images/12.png)
 
 >  12. 
 
