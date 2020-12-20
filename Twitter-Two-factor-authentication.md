@@ -47,7 +47,7 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 ![](images/11.png)
 
->  The two-factor authentication has been enabled via text message. From now onwards whenever you log in to your account on twitter.com
+>  The two-factor authentication has been enabled via text message. From now onwards whenever you log in to your account on [Twitter.com](https://twitter.com).
 
 ![](images/13.png)
 ![](images/14.png)
