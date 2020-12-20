@@ -39,7 +39,7 @@ Here is sign up via text message: Click the checkbox next to a **Text message.**
 
 ![](images/09-1.png)
 
-**Step 10:**  Now you need to enter the confirmation code sent via text message to you. 
+**Step 10:**  Now you need to enter the confirmation code,  then click **Next.** 
 
 ![](images/10.png)
 
