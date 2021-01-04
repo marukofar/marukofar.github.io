@@ -4,8 +4,13 @@
 
 ![](images/bwapp1-1.png)
 
-**Step 2:** Log in เข้าสู่ระบบเลือกช่องโหว่ที่ต้องการทดสอบ ในที่นี้คือ Cross-Site Scripting - Reflected (User-Agent)
+**Step 2:** Log in เข้าสู่ระบบเลือกช่องโหว่ที่ต้องการทดสอบ ในที่นี้คือ **Cross-Site Scripting - Reflected (User-Agent)**
 
 ![](images/bwapp2.png)
 
 ![](images/bwapp3.png)
+
+
+
+>  -  Fareed Marnleb
+>  -  Jaray Paensong
