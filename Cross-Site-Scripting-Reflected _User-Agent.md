@@ -21,7 +21,7 @@
 
 **Step 5.** กดเลือกช่องโหว่ **Cross-Site Scripting - Stored (User-Agent)** > **Hack**
 
-![](images/bwapp6.png)
+![](images/bwapp6-1.png)
 
 
 
