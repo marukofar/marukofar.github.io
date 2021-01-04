@@ -1,1 +1,1 @@
-# Cross-Site-Scripting — Reflected (User-Agent)
+# Cross-Site Scripting - Reflected (User-Agent)
