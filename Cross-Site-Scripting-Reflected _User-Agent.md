@@ -15,10 +15,11 @@
 ![](images/bwapp4-1.png)
 
 **Step 4:** ทดสอบใช้ประโยชน์จากช่องโหว่ที่ตรวจเจอด้วยโปรแกรม **Burp Suite** ซึ่งสามารถ Download ได้จากเว็บไซต์ [portswigger](https://portswigger.net/).
+เมื่อเข้าหน้าโปรแกรมให้กด **Proxy** > **Intercept** > **Intercept is on** (เลือกเป็น On)
 
 ![](images/bwapp5.png)
 
-**Step 5:** เมื่อเข้าหน้าโปรแกรมให้กด **Proxy** > **Intercept** > **Intercept is on** (เลือกเป็น On)
+**Step 5.** กดเลือกช่องโหว่ **Cross-Site Scripting - Stored (User-Agent)** > **Hack**
 
 ![](images/bwapp6.png)
 
