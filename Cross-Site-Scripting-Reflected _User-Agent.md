@@ -23,7 +23,15 @@
 
 ![](images/bwapp6-1.png)
 
+**Step 6.** แก้ไขข้อความในส่วนของ User-Agent ด้วยคำสั่ง **<script>alert('xxx')</script>** เพื่อสั่งให้ Popup เด้งขึ้นมาด้วยข้อความที่ตั้งไว้ (Hacked by Marukofar) แล้วคลิก **Forward**
+
+**Step 7.** หน้าเว็บไซต์ URL ที่มีช่องโหว่ข้างต้นจะเด้ง Popup ขึ้นมาด้วยข้อความที่ถูกตั้งไว้
+
 ![](images/bwapp7.png)
+
+## วิธีแก้ไข
+
+**Step 1.** ใช้ฟังก์ชัน **htmlentities()** เพื่อป้องกันการโจมตีจาก Script ใน PHP เพิ่มเข้าไปในส่วนของตัวแปร **$user_agent**
 
 ![](images/bwapp8.png)
 
@@ -31,7 +39,11 @@
 
 ![](images/bwapp10.png)
 
+**Step 2.** ทดสอบ Scan ช่องโหว่อีกครั้งด้วย **RIPS** จะเห็นว่าช่องโหว่ได้รับการแก้ไขแล้ว
+
 ![](images/bwapp11.png)
+
+**Step 3.** ทดสอบใช้โปรแกรม **Burp Suite** สั่งรันด้วยคำสั่งเดิมจะพบว่าไม่สามารถสั่งให้ Popup เด้งได้
 
 ![](images/bwapp12.png)
 
