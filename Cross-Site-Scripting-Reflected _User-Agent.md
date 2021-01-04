@@ -12,7 +12,7 @@
 
 **Step 3:** Scan ช่องโหว่ด้วย *RIPS** จะแสดงช่องโหว่ **''Cross-Site Scripting"** ที่ตรวจเจอ
 
-![](images/bwapp4.png)
+![](images/bwapp4-1.png)
 
 >  -  Fareed Marnleb
 >  -  Jaray Paensong
