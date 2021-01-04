@@ -1,10 +1,10 @@
 # Cross-Site Scripting - Reflected (User-Agent)
 
-**Step 1:** เปิด browser เข้า URL [bWAPP](#).
+**Step 1:** เปิด browser เข้า URL [bWAPP](#). **Log in** เข้าสู่ระบบ
 
 ![](images/bwapp1-1.png)
 
-**Step 2:** Log in เข้าสู่ระบบเลือกช่องโหว่ที่ต้องการทดสอบ ในที่นี้คือ **Cross-Site Scripting - Reflected (User-Agent)** คลิกเลือก **Cross-Site Scripting - Reflected (User-Agent)** และคลิก **Hack**
+**Step 2:** เลือกช่องโหว่ที่ต้องการทดสอบ ในที่นี้คือ **Cross-Site Scripting - Reflected (User-Agent)** คลิกเลือก **Cross-Site Scripting - Reflected (User-Agent)** และคลิก **Hack**
 
 ![](images/bwapp2.png)
 
