@@ -4,7 +4,7 @@
 
 ![](images/bwapp1-1.png)
 
-**Step 2:** เลือกช่องโหว่ที่ต้องการทดสอบ ในที่นี้คือ **Cross-Site Scripting - Reflected (User-Agent)** คลิกเลือก **Cross-Site Scripting - Reflected (User-Agent)** และคลิก **Hack**
+**Step 2:** เลือกช่องโหว่ที่ต้องการทดสอบ ในที่นี้คือ **XSS - Reflected (User-Agent)** คลิกเลือก **Cross-Site Scripting - Reflected (User-Agent)** และคลิก **Hack**
 
 ![](images/bwapp2.png)
 
@@ -19,9 +19,21 @@
 
 ![](images/bwapp5.png)
 
-**Step 5.** กดเลือกช่องโหว่ **Cross-Site Scripting - Stored (User-Agent)** > **Hack**
+**Step 5.** คลิกเลือกช่องโหว่ **Cross-Site Scripting - Stored (User-Agent)** > **Hack**
 
 ![](images/bwapp6-1.png)
+
+![](images/bwapp7.png)
+
+![](images/bwapp8.png)
+
+![](images/bwapp9.png)
+
+![](images/bwapp10.png)
+
+![](images/bwapp11.png)
+
+![](images/bwapp12.png)
 
 
 
