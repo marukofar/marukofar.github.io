@@ -41,7 +41,7 @@ Encoded String: b'\xe0\xb8\xa0\xe0\xb8\xb2\xe0\xb8\xa9\xe0\xb8\xb2 pyth\xc3\xb6n
 ```python
 text = "Today is Wendy"
 
-x = text.encode(UTF-16)
+x = text.encode(encoding='UTF-16')
  
 print("Encoded String: " + str(x))
 ```
@@ -50,5 +50,5 @@ print("Encoded String: " + str(x))
 
 
 ```python
-Encoded String:  
+Encoded String: b'\xff\xfeT\x00o\x00d\x00a\x00y\x00 \x00i\x00s\x00 \x00W\x00e\x00n\x00d\x00y\x00'  
 ```
