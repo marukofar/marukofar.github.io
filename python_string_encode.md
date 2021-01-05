@@ -55,8 +55,8 @@ Encoded String: b'\xff\xfeT\x00o\x00d\x00a\x00y\x00 \x00i\x00s\x00 \x00W\x00e\x0
 
 
 
----
-## References:
+
+#### References:
 
 - https://www.programiz.com/python-programming/methods/string/encode
 - https://www.dcrub.com/python-string-encode-method
