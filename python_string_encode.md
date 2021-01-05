@@ -8,7 +8,9 @@
 
 ## รูปแบบการใช้งาน
 
-```bash str.encode(encoding='UTF-8',errors='strict') ```
+```bash 
+str.encode(encoding='UTF-8',errors='strict') 
+```
 
 ## Parameters
 
