@@ -37,7 +37,7 @@ print("Encoded String: " + str(x))
 Encoded String: b'\xe0\xb8\xa0\xe0\xb8\xb2\xe0\xb8\xa9\xe0\xb8\xb2 pyth\xc3\xb6n' 
 ```
 
-## ตัวอย่างการใช้ encode() ระบุรูปแบบการเข้ารหัสเป็น UTF16
+#### ตัวอย่างการใช้ encode() ระบุรูปแบบการเข้ารหัสเป็น UTF16
 
 ```bash
 text = "Today is Wendy"
