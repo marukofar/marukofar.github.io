@@ -45,7 +45,7 @@ Output: `False`
 
 ### แบบที่ 4 ตัวเลขและตัวอักษร
 ```python
-text = "Far123" 
+text = "123Far" 
 
 print(text.isdigit())
 ```
