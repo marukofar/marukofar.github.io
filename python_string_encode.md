@@ -1,4 +1,4 @@
-![](images/day1.png)
+![](images/day-1.png)
 
 # Python String encode()
 
