@@ -19,59 +19,53 @@ str.isdigit()
 
 ### ตัวอย่างการใช้ isdigit() 
 
-#### แบบที่ 1 ตัวเลขล้วน
+### แบบที่ 1 ตัวเลขล้วน
 ```python
 text = "5555" 
 
 print(text.isdigit())
 ```
+Output: `True`
 
-### Output: `True`
-
-#### แบบที่ 2 ตัวเลข และช่องว่าง (Blank spces)
+### แบบที่ 2 ตัวเลข และช่องว่าง (Blank spces)
 ```python
 text = "098 1234567" 
 
 print(text.isdigit())
 ```
+Output: `False`
 
-### Output: `False`
-
-#### แบบที่ 3 ตัวเลขมีจุดทศนิยม
+### แบบที่ 3 ตัวเลขมีจุดทศนิยม
 ```python
 text = "3.14159" 
 
 print(text.isdigit())
 ```
+Output: `False`
 
-### Output: `False`
-
-#### แบบที่ 4 ตัวเลขและตัวอักษร
+### แบบที่ 4 ตัวเลขและตัวอักษร
 ```python
 text = "Far123" 
 
 print(text.isdigit())
 ```
+Output: `False`
 
-### Output: `False`
-
-#### แบบที่ 5 อักขระและตัวเลข
+### แบบที่ 5 อักขระและตัวเลข
 ```python
 text = "@$123" 
 
 print(text.isdigit())
 ```
+Output: `False`
 
-### Output: `False`
-
-#### แบบที่ 6 str ว่างเปล่า
+### แบบที่ 6 str ว่างเปล่า
 ```python
 text = " " 
 
 print(text.isdigit())
 ```
-
-### Output: `False`
+Output: `False`
 ![](images/day-2-2.png)
 
 ### References:
