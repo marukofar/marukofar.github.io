@@ -68,7 +68,7 @@ print(text.isdigit())
 Output: `False`
 ![](images/day-2-2.png)
 
-### References:
+#### References:
 
 - https://www.journaldev.com/24049/python-string-isdigit
 - https://www.askpython.com/python/string/python-string-isdigit-function
