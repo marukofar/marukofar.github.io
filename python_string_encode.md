@@ -1,3 +1,5 @@
+![](images/day1.png)
+
 # Python String encode()
 
 การเข้ารหัสข้อความใน Python ด้วยฟังก์ชั่น encode() ตั้งแต่ Python 3.0 สตริง (str) จะถูกจัดเก็บเป็น Unicode โดยค่าเริ่มต้นจะเป็น UTF-8 
