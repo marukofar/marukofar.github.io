@@ -25,7 +25,7 @@ str.encode(encoding='UTF-8',errors='strict')
 ### ตัวอย่างการใช้ encode() ไม่ระบุรูปแบบการเข้ารหัส
 
 ```python
-text = "ภาษา pythön" 
+text = "สวัสดี My name is Maruköfar" 
 
 x = text.encode()
 
@@ -35,13 +35,13 @@ print("Encoded String: " + str(x))
 ### Output:
 
 ```python
-Encoded String: b'\xe0\xb8\xa0\xe0\xb8\xb2\xe0\xb8\xa9\xe0\xb8\xb2 pyth\xc3\xb6n' 
+Encoded String 1: b'\xe0\xb8\xaa\xe0\xb8\xa7\xe0\xb8\xb1\xe0\xb8\xaa\xe0\xb8\x94\xe0\xb8\xb5 My name is Maruk\xc3\xb6far' 
 ```
 
 ### ตัวอย่างการใช้ encode() ระบุรูปแบบการเข้ารหัสเป็น UTF-16
 
 ```python
-text = "Today is Wendy"
+text = "สวัสดี My name is Maruköfar"
 
 x = text.encode(encoding='UTF-16')
  
@@ -52,11 +52,11 @@ print("Encoded String: " + str(x))
 
 
 ```python
-Encoded String: b'\xff\xfeT\x00o\x00d\x00a\x00y\x00 \x00i\x00s\x00 \x00W\x00e\x00n\x00d\x00y\x00'  
+Encoded String 2: b"\xff\xfe*\x0e'\x0e1\x0e*\x0e\x14\x0e5\x0e \x00M\x00y\x00  \x00n\x00a\x00m\x00e\x00 \x00i\x00s\x00 \x00M\x00a\x00r\x00u\x00k\x00\xf6\x000f\x00a\x00r\x00"  
 ```
 
 
-
+![](images/day-1-2.png)
 
 ### References:
 
