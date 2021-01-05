@@ -3,13 +3,13 @@
 การเข้ารหัสข้อความใน Python ด้วยฟังก์ชั่น encode() ตั้งแต่ Python 3.0 สตริง (str) จะถูกจัดเก็บเป็น Unicode โดยค่าเริ่มต้นจะเป็น UTF-8 
 ฟังก์ชัน encode จะเปลี่ยน str ให้เป็น bytes 
 
-#### รูปแบบการใช้งาน
+### รูปแบบการใช้งาน
 
 ```python 
 str.encode(encoding='UTF-8',errors='strict') 
 ```
 
-#### Parameters
+### Parameters
 
 - **encoding** - str สำหรับระบุรูปแบบที่ใช้เข้ารหัส เช่น UTF-8, base64 เป็นต้น หากไม่ระบุค่าเริ่มต้นจะเป็น UTF-8
 - **errors** - str สำหรับระบุ Error (จะระบุหรือไม่ระบุก็ได้) ค่าเริ่มต้นสำหรับข้อผิดพลาดคือ "strict" ก็คือ ข้อผิดพลาดในการเข้ารหัสทำให้เกิด UnicodeError นั่นเอง โดยค่าที่ใช้ได้มีดังนี้
@@ -20,7 +20,7 @@ str.encode(encoding='UTF-8',errors='strict')
     - **replace** - แทนที่ตัวอักษรด้วยเครื่องหมายคำถาม ?
     - **xmlcharrefreplace** - แทนที่ตัวอักษรด้วย xml character
 
-#### ตัวอย่างการใช้ encode() ไม่ระบุรูปแบบการเข้ารหัส
+### ตัวอย่างการใช้ encode() ไม่ระบุรูปแบบการเข้ารหัส
 
 ```python
 text = "ภาษา pythön" 
@@ -30,13 +30,13 @@ x = text.encode()
 print("Encoded String: " + str(x))
 ```
 
-#### Output:
+### Output:
 
 ```python
 Encoded String: b'\xe0\xb8\xa0\xe0\xb8\xb2\xe0\xb8\xa9\xe0\xb8\xb2 pyth\xc3\xb6n' 
 ```
 
-#### ตัวอย่างการใช้ encode() ระบุรูปแบบการเข้ารหัสเป็น UTF-16
+### ตัวอย่างการใช้ encode() ระบุรูปแบบการเข้ารหัสเป็น UTF-16
 
 ```python
 text = "Today is Wendy"
@@ -46,7 +46,7 @@ x = text.encode(UTF-16)
 print("Encoded String: " + str(x))
 ```
 
-## Output:
+### Output:
 
 
 ```python
