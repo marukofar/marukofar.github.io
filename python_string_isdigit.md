@@ -7,8 +7,8 @@
 ### Key Points:
 
 - **Return Type:** จะคืนค่าเป็น True หรือ False
-- **Parametric Values:** ไม่จำเป็นต้องแยกพารามิเตอร์ในฟังก์ชัน isdigit ()
-- ช่องว่างระหว่างตัวเลข (Blank spces) จะคืนค่าเป็น False
+- **Parametric Values:** ไม่จำเป็นต้องแยกพารามิเตอร์ในฟังก์ชัน isdigit()
+- ช่องว่างระหว่างตัวเลข (Blank spaces) จะคืนค่าเป็น False
 - str ว่างเปล่า จะคืนค่าเป็น False
 - เลขยกกำลังถือว่าเป็นตัวเลข
 
@@ -28,7 +28,7 @@ print(text.isdigit())
 ```
 Output: `True`
 
-### แบบที่ 2 ตัวเลข และช่องว่าง (Blank spces)
+### แบบที่ 2 ตัวเลข และช่องว่าง (Blank spaces)
 ```python
 text = "098 1234567" 
 
