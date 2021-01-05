@@ -6,7 +6,7 @@
 
 #### รูปแบบการใช้งาน
 
-```bash 
+```python 
 str.encode(encoding='UTF-8',errors='strict') 
 ```
 
