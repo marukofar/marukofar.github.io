@@ -1,8 +1,8 @@
 # Python String encode()
 # การเข้ารหัสข้อความใน Python ด้วย encode() 
 
-ตั้งแต่ Python 3.0 สตริง (str) จะถูกจัดเก็บเป็น Unicode ค่าเริ่มต้นเป็น UTF-8 
-โดยฟังก์ชัน encode จะเปลี่ยน str ให้เป็น bytes 
+ตั้งแต่ Python 3.0 สตริง (str) จะถูกจัดเก็บเป็น Unicode โดยค่าเริ่มต้นจะเป็น UTF-8 
+ฟังก์ชัน encode จะเปลี่ยน str ให้เป็น bytes 
 
 #### รูปแบบการใช้งาน
 
