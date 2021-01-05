@@ -25,24 +25,33 @@ str.encode(encoding='UTF-8',errors='strict')
 
 ## ตัวอย่างการใช้ encode() ไม่ระบุรูปแบบการเข้ารหัส
 
-> text = "ภาษา pythön" 
-> 
-> x = text.encode()
-> 
-> print("Encoded String: " + str(x))
+```bash
+text = "ภาษา pythön" 
+
+x = text.encode()
+
+print("Encoded String: " + str(x))
+```
 
 ## Output:
 
-> Encoded String: b'\xe0\xb8\xa0\xe0\xb8\xb2\xe0\xb8\xa9\xe0\xb8\xb2 pyth\xc3\xb6n' 
+```bash
+Encoded String: b'\xe0\xb8\xa0\xe0\xb8\xb2\xe0\xb8\xa9\xe0\xb8\xb2 pyth\xc3\xb6n' 
+```
 
 ## ตัวอย่างการใช้ encode() ระบุรูปแบบการเข้ารหัสเป็น base64
 
+```bash
 > text = "Today is Wendy"
 >
 > x = text.encode(UTF-16)
 > 
 > print("Encoded String: " + str(x))
+```
 
 ## Output:
 
-> Encoded String: 
+
+```bash
+Encoded String:  
+```
