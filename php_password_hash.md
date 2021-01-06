@@ -6,7 +6,7 @@
 
 ### Key Points:
 
-- อัลกอริทึมที่ใช้ : `PASSWORD_DEFAULT`, `PASSWORD_BCRYPT` และ `PASSWORD_ARGON2I` (PHP7.2.0 ขึ้นไป)
+- อัลกอริทึมที่ใช้ : `PASSWORD_DEFAULT`, `PASSWORD_BCRYPT` และ `PASSWORD_ARGON2I` (PHP 7.2 ขึ้นไป)
 
 ### รูปแบบการใช้งาน
 
