@@ -2,11 +2,11 @@
 
 # PHP password_hash()
 
-`password_hash()` ใช้ 
+`password_hash()` ใช้สำหรับเข้ารหัส Password ซึ่งโดยปกติการจัดเก็บ Password ให้ปลอดภัยนั้นจะไม่มีการเก็บเป็น Plain text กันตรง ๆ Support ตั้งแต่ PHP 5.5
 
 ### Key Points:
 
-- 
+- อัลกอริทึมที่ใช้ : `PASSWORD_DEFAULT`, `PASSWORD_BCRYPT` และ `PASSWORD_ARGON2I` (PHP7.2.0 ขึ้นไป)
 
 ### รูปแบบการใช้งาน
 
