@@ -56,7 +56,7 @@ Encoded String: b"\xff\xfe*\x0e'\x0e1\x0e*\x0e\x14\x0e5\x0e \x00M\x00y\x00  \x00
 ```
 
 
-![](images/day-1-2.png)
+![](images/day1.png)
 
 ### References:
 
