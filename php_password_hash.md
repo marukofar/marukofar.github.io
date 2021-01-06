@@ -2,7 +2,7 @@
 
 # PHP password_hash()
 
-`password_hash()` ใช้สำหรับเข้ารหัส Password ซึ่งโดยปกติการจัดเก็บ Password ให้ปลอดภัยนั้นจะไม่มีการเก็บเป็น Plain text กันตรง ๆ Support ตั้งแต่ PHP 5.5
+`password_hash()` ใช้สำหรับเข้ารหัส Password ซึ่งโดยปกติการจัดเก็บ Password ให้ปลอดภัยนั้นจะไม่มีการเก็บเป็น Plain text กันตรง ๆ ฟังก์ชัน `password_hash()` Support ตั้งแต่ PHP 5.5
 
 ### Key Points:
 
