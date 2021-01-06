@@ -17,6 +17,10 @@
 password_hash ( string $password , mixed $algo , array $options = ? ) : string|false
 ```
 
+### การคืนค่า
+
+จะคืนค่าเป็นค่าแฮช หรือ False เมื่อแฮชไม่ได้
+
 ### ตัวอย่างการใช้ `password_hash()` 
 
 ### แบบที่ 1
@@ -70,7 +74,7 @@ echo "Appropriate Cost Found: " . $cost;
 Appropriate Cost Found: 10
 ```
 
-### แบบที่ 4 
+### แบบที่ 4 ใช้ Argon2i hash
 ```php
 <?php
 
