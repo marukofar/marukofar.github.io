@@ -2,11 +2,14 @@
 
 # PHP password_hash()
 
-`password_hash()` ใช้สำหรับเข้ารหัส Password ซึ่งโดยปกติการจัดเก็บ Password ให้ปลอดภัยนั้นจะไม่มีการเก็บเป็น Plain text กันตรง ๆ ฟังก์ชัน `password_hash()` Support ตั้งแต่ PHP 5.5
+`password_hash()` ใช้สำหรับเข้ารหัส Password ซึ่งโดยปกติการจัดเก็บ Password ให้ปลอดภัยนั้นจะไม่มีการเก็บเป็น Plain text กันตรง ๆ เพื่อป้องกันผู้ไม่ประสงค์ดีขโมยข้อมูล Password แล้วนำไปใช้ได้ จึงจำเป็นจะต้องมีการ Hash เช่น md5, sha1, sha256  และอีกมากมายเข้ารหัสไว้แบบทางเดียว (hashing) ซึ่งทั้งหมดทั้งมวลเดี๋ยวนี้สามารถ Crack password ได้ด้วย Rainbow Table จึงเป็นที่มาของฟังก์ชัน `password_hash()` ฟังก์ชันนี้ต่างจาก Hash จำพวกอื่นอย่างไร? ต่างกันที่ `password_hash()` การเติม Salt เข้าไป 
+
+`password_hash()` Support ตั้งแต่ PHP 5.5 เป็นต้นไป
 
 ### Key Points:
 
 - อัลกอริทึมที่ใช้ : `PASSWORD_DEFAULT`, `PASSWORD_BCRYPT` และ `PASSWORD_ARGON2I` (PHP 7.2 ขึ้นไป)
+- `password_hash()` ค่าเริ่มต้นจะเติม Salt ให้โดยอัตโนมัติ
 
 ### รูปแบบการใช้งาน
 
