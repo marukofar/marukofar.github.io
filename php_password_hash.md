@@ -83,9 +83,10 @@ Argon2i hash: $argon2i$v=19$m=1024,t=2,p=2$YzJBSzV4TUhkMzc3d3laeg$zqU/1IN0/AogfP
 ### ข้อควรจำ
 ```html
 คำเตือน!!!
-It is strongly recommended that you do not generate your own salt for this function. It will create a secure salt automatically for you if you do not specify one.
+สำหรับฟังก์ชัน password_hash() ไม่แนะนำให้เติม salt ด้วยตัวเอง โดยค่าเริ่มต้นฟังก์ชั่นนี้ จะเติม Salt 
+ให้อัตโนมัติอยู่แล้ว การันตีว่าปลอดภัยชัวร์
 
-As noted above, providing the salt option in PHP 7.0 will generate a deprecation warning. Support for providing a salt manually may be removed in a future PHP release.
+ตั้งแต่ PHP 7.0 เป็นต้นไปมีคำเตือนห้ามเติม salt เข้าไป และในอนาคตอันใกล้ PHP เวอร์ชั่นใหม่ก็จะยกเลิกการเติม Salt ด้วยตัวเองไปโดยปริยาย 
 ```
 
 
