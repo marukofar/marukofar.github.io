@@ -81,7 +81,7 @@ Argon2i hash: $argon2i$v=19$m=1024,t=2,p=2$YzJBSzV4TUhkMzc3d3laeg$zqU/1IN0/AogfP
 ```
 
 ### ข้อควรจำ
-```
+```html
 คำเตือน!!!
 It is strongly recommended that you do not generate your own salt for this function. It will create a secure salt automatically for you if you do not specify one.
 
