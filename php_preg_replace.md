@@ -92,7 +92,7 @@ $startDate = 5/27/1999
 
 ```php 
 <?php
-$str = 'foo   o';
+$str = 'fa   r';
 $str = preg_replace('/\s\s+/', ' ', $str);
 
 echo $str;
@@ -100,7 +100,7 @@ echo $str;
 ```
 #### Output: 
 ```bash
-foo o
+fa r
 ```
 ### แบบที่ 5 ใช้ `count` parameter
 
