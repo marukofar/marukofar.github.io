@@ -112,7 +112,7 @@ echo preg_replace(array('/\d/', '/\s/'), '*', 'xp 4 to', -1 , $count);
 echo $count; //3
 ?>
 ```
-#### Output: (ตัดช่องว่างไปหนึ่งช่อง)
+#### Output: 
 
 ```bash
 xp***to
