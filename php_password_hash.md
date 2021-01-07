@@ -1,4 +1,4 @@
-![](images/day3.png)
+![](images/day3-1.png)
 
 # PHP password_hash()
 
