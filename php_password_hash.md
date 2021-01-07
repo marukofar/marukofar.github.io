@@ -39,7 +39,8 @@ echo password_hash("Marukofar", PASSWORD_DEFAULT);
 ```bash
 $2y$10$WmkE7k9DoZNR42Pp/TPl6uO9Yc0NRhy56NWv2qcehvyRiwZYtQecy
 ```
-### แบบที่ 2 กำหนด cost เอง (PASSWORD_BCRYPT - ใช้อัลกอริทึม CRYPT_BLOWFISH เพื่อสร้างแฮช ซึ่งจะสร้างแฮชที่เข้ากันได้กับ crypt () มาตรฐานโดยใช้ตัวระบุ "$2y$" ผลลัพธ์จะเป็น str 60 ตัวเสมอหรือเป็น False เมื่อแฮชไม่สำเร็จ)
+### แบบที่ 2 กำหนด cost เอง 
+(PASSWORD_BCRYPT - ใช้อัลกอริทึม CRYPT_BLOWFISH เพื่อสร้างแฮช ซึ่งจะสร้างแฮชที่เข้ากันได้กับ crypt () มาตรฐานโดยใช้ตัวระบุ "$2y$" ผลลัพธ์จะเป็น str 60 ตัวเสมอหรือเป็น False เมื่อแฮชไม่สำเร็จ)
 ```php
 <?php
 
