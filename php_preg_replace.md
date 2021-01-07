@@ -36,7 +36,7 @@ echo $data;
 #### Output:
 
 ```bash
-Marukofar
+Marukofar123
 ```
 ### แบบที่ 2 
 
