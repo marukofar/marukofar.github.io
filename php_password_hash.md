@@ -31,13 +31,13 @@ password_hash ( string $password , mixed $algo , array $options = ? ) : string|f
 ```php
 <?php
 
-echo password_hash("rasmuslerdorf", PASSWORD_DEFAULT);
+echo password_hash("Marukofar", PASSWORD_DEFAULT);
 ?>
 ```
 #### Output:
 
 ```bash
-$2y$10$.vGA1O9wmRjrwAVXD98HNOgsNpDczlqm3Jq7KnEd1rVAGv3Fykk1a
+$2y$10$WmkE7k9DoZNR42Pp/TPl6uO9Yc0NRhy56NWv2qcehvyRiwZYtQecy
 ```
 ### แบบที่ 2 
 ```php
@@ -46,20 +46,20 @@ $2y$10$.vGA1O9wmRjrwAVXD98HNOgsNpDczlqm3Jq7KnEd1rVAGv3Fykk1a
 $options = [
     'cost' => 12,
 ];
-echo password_hash("rasmuslerdorf", PASSWORD_BCRYPT, $options);
+echo password_hash("Marukofar", PASSWORD_BCRYPT, $options);
 ?> 
 ```
 #### Output:
 
 ```bash
-$2y$12$QjSH496pcT5CEbzjD/vtVeH03tfHKFy36d4J0Ltp3lRtee9HDxY3K
+$2y$12$Kdmrke76bnkGb4KmwPAAxub77n5a3SECuSfOjMRgrh5ySvOr31Zjm
 ```
 
 ### แบบที่ 3 
 ```php
 <?php
 
-$timeTarget = 0.05; // 50 milliseconds 
+$timeTarget = 0.05; // 50 มิลลิวินาที 
 
 $cost = 8;
 do {
@@ -82,13 +82,13 @@ Appropriate Cost Found: 10
 ```php
 <?php
 
-echo 'Argon2i hash: ' . password_hash('rasmuslerdorf', PASSWORD_ARGON2I);
+echo 'Argon2i hash: ' . password_hash('Marukofar', PASSWORD_ARGON2I);
 ?>
 ```
 #### Output:
 
 ```bash
-Argon2i hash: $argon2i$v=19$m=1024,t=2,p=2$YzJBSzV4TUhkMzc3d3laeg$zqU/1IN0/AogfP4cmSJI1vc8lpXRW9/S0sYY2i2jHT0
+Argon2i hash: $argon2i$v=19$m=65536,t=4,p=1$WTZldDY4MGx0eTNMaWdBbg$tjNNHbFUk1SsXaU8XC52+asIOblsFTp7uv7vRA0uRJA
 ```
 
 ### Note
