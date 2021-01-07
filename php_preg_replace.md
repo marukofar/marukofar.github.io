@@ -98,8 +98,7 @@ $str = preg_replace('/\s\s+/', ' ', $str);
 echo $str;
 ?>
 ```
-#### Output: ตัดช่องว่าง (Blank spaces) ไปหนึ่งช่อง
-
+#### Output: 
 ```bash
 foo o
 ```
