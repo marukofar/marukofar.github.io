@@ -41,7 +41,7 @@ echo $data;
 ```bash
 Marukofar123
 ```
-### ตัวอย่างที่ 2 
+### ตัวอย่างที่ 2 ใช้อาร์เรย์ indexed
 
 ```php 
 <?php
@@ -91,7 +91,7 @@ echo preg_replace($patterns, $replace, '{startDate} = 1999-5-27');
 ```bash
 $startDate = 5/27/1999
 ```
-### ตัวอย่างที่ 4 ตัดช่องว่าง (Blank spaces) ส่วนเกินออกจากสตริง 
+### ตัวอย่างที่ 4 ตัดช่องว่าง (whitespace) ส่วนเกินออกจากสตริง 
 
 ```php 
 <?php
