@@ -27,7 +27,7 @@ password_hash ( string $password , mixed $algo , array $options = ? ) : string|f
 
 ### ตัวอย่างการใช้ `password_hash()` 
 
-### แบบที่ 1
+### ตัวอย่างที่ 1
 ```php
 <?php
 
@@ -39,7 +39,7 @@ echo password_hash("Marukofar", PASSWORD_DEFAULT);
 ```bash
 $2y$10$WmkE7k9DoZNR42Pp/TPl6uO9Yc0NRhy56NWv2qcehvyRiwZYtQecy
 ```
-### แบบที่ 2 กำหนด cost เอง 
+### ตัวอย่างที่ 2 กำหนด cost เอง 
 (PASSWORD_BCRYPT - ใช้อัลกอริทึม CRYPT_BLOWFISH เพื่อสร้างแฮช ซึ่งจะสร้างแฮชที่เข้ากันได้กับ crypt () มาตรฐาน โดยใช้ตัวระบุ "$2y$" ผลลัพธ์จะเป็น str 60 ตัวเสมอหรือเป็น False เมื่อแฮชไม่สำเร็จ)
 ```php
 <?php
@@ -56,7 +56,7 @@ echo password_hash("Marukofar", PASSWORD_BCRYPT, $options);
 $2y$12$Kdmrke76bnkGb4KmwPAAxub77n5a3SECuSfOjMRgrh5ySvOr31Zjm
 ```
 
-### แบบที่ 3 หาค่า Cost ที่ดีที่สุด
+### ตัวอย่างที่ 3 หาค่า Cost ที่ดีที่สุด
 ```php
 <?php
 
@@ -79,7 +79,7 @@ echo "Appropriate Cost Found: " . $cost;
 Appropriate Cost Found: 10
 ```
 
-### แบบที่ 4 ใช้ Argon2i hash
+### ตัวอย่างที่ 4 ใช้ Argon2i hash
 ```php
 <?php
 
