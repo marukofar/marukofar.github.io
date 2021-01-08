@@ -13,11 +13,11 @@ preg_replace ( string|array $pattern , string|array $replacement , string|array 
 
 ### Parameters 
 
-- `$pattern`
-- `$replacement`
-- `$subject`
-- `$limit`
-- `$count`
+- `$pattern` - parameter นี้มีองค์ประกอบสตริงที่ใช้ในการค้นหาเนื้อหา และอาจเป็นสตริงหรืออาร์เรย์ของสตริง
+- `$replacement` - เป็น parameter บังคับซึ่งระบุสตริงหรืออาร์เรย์ที่มีสตริงที่จะแทนที่
+- `$subject` - สตริงหรืออาร์เรย์ที่มีสตริงเพื่อค้นหาและแทนที่
+- `$limit` - parameter นี้ระบุการแทนที่สูงสุดที่เป็นไปได้สำหรับแต่ละรูปแบบ
+- `$count` - เป็น parameter เสริม ตัวแปรนี้จะเต็มไปด้วยจำนวนการแทนที่ที่ทำเสร็จ
 
 ### การคืนค่า
 
