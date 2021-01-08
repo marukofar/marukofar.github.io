@@ -13,11 +13,11 @@ preg_replace ( string|array $pattern , string|array $replacement , string|array 
 
 ### Parameters 
 
-- pattern
-- replacement
-- subject
-- limit
-- count
+- `$pattern`
+- `$replacement`
+- `$subject`
+- `$limit`
+- `$count`
 
 ### การคืนค่า
 
