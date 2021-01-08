@@ -79,7 +79,7 @@ echo "Appropriate Cost Found: " . $cost;
 Appropriate Cost Found: 10
 ```
 
-### ตัวอย่างที่ 4 ใช้ Argon2i hash
+### ตัวอย่างที่ 4 ใช้ `Argon2i` hash
 ```php
 <?php
 
