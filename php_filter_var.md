@@ -11,9 +11,9 @@ filter_var ( mixed $value , int $filter = FILTER_DEFAULT , array|int $options = 
 
 ### Parameters 
 
-- value - ค่าที่จะกรอง
-- filter - 
-- options - 
+- variable - จำเป็นต้องใช้ ตัวแปรในการกรอง
+- filter - ไม่จำเป็น ระบุ ID หรือชื่อของตัวกรองที่จะใช้ ค่าเริ่มต้นคือ FILTER_DEFAULT ซึ่งก็คือไม่มีการกรอง
+- options - ไม่จำเป็น ระบุหนึ่งหรือมากกว่า flags / ตัวเลือกที่จะใช้ตรวจสอบแต่ละตัวกรองสำหรับตัวเลือกที่เป็นไปได้และ flags
 
 ### การคืนค่า
 
@@ -64,5 +64,6 @@ far@maruko.com is a valid email address
 
 #### Reference
 - https://www.php.net/manual/en/function.filter-var.php
+- https://www.w3schools.com/php/func_filter_var.asp
 
 
