@@ -17,7 +17,7 @@ filter_var ( mixed $value , int $filter = FILTER_DEFAULT , array|int $options = 
 
 ### การคืนค่า
 
-`filter_var()` ส่งคืนข้อมูลที่กรองแล้ว หรือ False หากการกรองไม่สำเร็จ
+`filter_var()` คืนค่าข้อมูลที่กรองแล้ว หรือ False หากการกรองไม่สำเร็จ
 
 ### ตัวอย่างการใช้ `filter_var()`
 
