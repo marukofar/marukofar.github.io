@@ -12,7 +12,7 @@ filter_var ( mixed $value , int $filter = FILTER_DEFAULT , array|int $options = 
 ### Parameters 
 
 - `variable` - จำเป็นต้องใช้ ตัวแปรในการกรอง
-- `filter` - ไม่จำเป็น ระบุ ID หรือชื่อของตัวกรองที่จะใช้ ค่าเริ่มต้นคือ FILTER_DEFAULT ซึ่งก็คือไม่มีการกรอง ตัวอย่าง Validate filters เช่น FILTER_VALIDATE_DOMAIN ใช้ตรวจสอบว่าความยาวชื่อโดเมนถูกต้องหรือไม่, FILTER_VALIDATE_EMAIL ตรวจสอบรูปแบบของอีเมล, FILTER_VALIDATE_IP ตรวจสอบรูปแบบ IP, FILTER_VALIDATE_MAC ตรวจสอบรูปแบบ Mac Address เป็นต้น	 		
+- `filter` - ไม่จำเป็น ระบุ ID หรือชื่อของตัวกรองที่จะใช้ ค่าเริ่มต้นคือ FILTER_DEFAULT ซึ่งก็คือไม่มีการกรอง ตัวอย่าง Validate filters เช่น FILTER_VALIDATE_DOMAIN ใช้ตรวจสอบว่าความยาวชื่อโดเมนถูกต้องหรือไม่, FILTER_VALIDATE_EMAIL ตรวจสอบรูปแบบของอีเมล, FILTER_VALIDATE_IP ตรวจสอบรูปแบบ IP Address, FILTER_VALIDATE_MAC ตรวจสอบรูปแบบ Mac Address เป็นต้น	 		
 - `options` - ไม่จำเป็น ระบุหนึ่งหรือมากกว่า flags / ตัวเลือกที่จะใช้ตรวจสอบแต่ละตัวกรองสำหรับตัวเลือกที่เป็นไปได้และ flags
 
 ### การคืนค่า
