@@ -59,5 +59,6 @@ bool(false)
 #### Reference
 - https://www.php.net/manual/en/function.filter-var.php
 - https://www.w3schools.com/php/func_filter_var.asp
+- https://www.php.net/manual/en/filter.filters.validate.php
 
 
