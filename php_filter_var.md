@@ -61,19 +61,49 @@ if (filter_var($url, FILTER_VALIDATE_URL)) {
 ```bash
 https://www.mut.ac.th is a valid URL
 ```
-### ตัวอย่างแบบที่ 3
+### ตัวอย่างแบบที่ 3 ตรวจสอบเลขจำนวนเต็ม
 
 ```php 
-<?php
-var_dump(filter_var('far@maruko.com', FILTER_VALIDATE_EMAIL));
-var_dump(filter_var('maruko.com', FILTER_VALIDATE_URL, FILTER_FLAG_SCHEME_REQUIRED));
+<?php 
+  
+$int = 1234; 
+  
+if (filter_var($int, FILTER_VALIDATE_INT) === 0 ||  
+    !filter_var($int, FILTER_VALIDATE_INT) === false)  
+{ 
+    echo("Integer is valid"); 
+}  
+else 
+{ 
+    echo("Integer is not valid"); 
+} 
+  
 ?>
 ```
 #### Output: 
 
 ```bash
-string(14) "far@maruko.com"
-bool(false)
+Integer is valid
+```
+### ตัวอย่างแบบที่ 4 ตรวจสอบรูปแบบ IP Address
+
+```php 
+<?php 
+  
+$ip = "127.0.0.1"; 
+  
+if (!filter_var($ip, FILTER_VALIDATE_IP) === false) { 
+    echo("$ip is a valid IP address"); 
+} else { 
+    echo("$ip is not a valid IP address"); 
+} 
+  
+?>
+```
+#### Output: 
+
+```bash
+127.0.0.1 is a valid IP address
 ```
 
 #### Reference
