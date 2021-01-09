@@ -85,7 +85,7 @@ else
 ```bash
 Integer is valid
 ```
-### ตัวอย่างแบบที่ 4 ตรวจสอบรูปแบบ IP Address
+### ตัวอย่างแบบที่ 5 ตรวจสอบรูปแบบ IP Address
 
 ```php 
 <?php 
