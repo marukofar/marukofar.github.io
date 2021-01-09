@@ -41,25 +41,19 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 ```bash
 far@maruko.com is a valid email address
 ```
-### ตัวอย่างแบบที่ 1 ตรวจสอบอีเมลว่ารูปแบบถูกต้องหรือไม่
+### ตัวอย่างแบบที่ 2
 
 ```php 
 <?php
-// Variable to check
-$email = "far@maruko.com";
-
-// Validate email
-if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo("$email is a valid email address");
-} else {
-    echo("$email is not a valid email address");
-}
+var_dump(filter_var('far@maruko.com', FILTER_VALIDATE_EMAIL));
+var_dump(filter_var('example.com', FILTER_VALIDATE_URL, FILTER_FLAG_SCHEME_REQUIRED));
 ?>
 ```
 #### Output: 
 
 ```bash
-far@maruko.com is a valid email address
+string(14) "far@maruko.com"
+bool(false)
 ```
 
 #### Reference
