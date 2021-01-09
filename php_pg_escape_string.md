@@ -7,16 +7,13 @@
 ### รูปแบบการใช้งาน
 
 ```php 
-
+pg_escape_string ( resource $connection = ? , string $data ) : string
 ```
 
 ### Parameters 
 
-- pattern
-- replacement
-- subject
-- limit
-- count
+- connection
+- data
 
 ### การคืนค่า
 
