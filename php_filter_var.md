@@ -41,7 +41,27 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 ```bash
 far@maruko.com is a valid email address
 ```
-### ตัวอย่างแบบที่ 2
+### ตัวอย่างแบบที่ 2 ตรวจสอบรูปแบบ URL
+
+```php 
+<?php
+// Variable to check
+$url = "https://www.mut.ac.th";
+
+// Validate url
+if (filter_var($url, FILTER_VALIDATE_URL)) {
+  echo("$url is a valid URL");
+} else {
+  echo("$url is not a valid URL");
+}
+?>
+```
+#### Output: 
+
+```bash
+https://www.mut.ac.th is a valid URL
+```
+### ตัวอย่างแบบที่ 3
 
 ```php 
 <?php
