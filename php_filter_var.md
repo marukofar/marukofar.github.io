@@ -11,7 +11,7 @@ filter_var ( mixed $value , int $filter = FILTER_DEFAULT , array|int $options = 
 
 ### Parameters 
 
-- value - 
+- value - ค่าที่จะกรอง
 - filter - 
 - options - 
 
