@@ -11,7 +11,19 @@ error_reporting ( int $level = ? ) : int
 
 ### Parameters 
 
-- `level` - สำหรับกำหนด level การรายงานข้อผิดพลาด (Error) สำหรับสคริปต์ปัจจุบัน
+- `level` - สำหรับกำหนด level การรายงานข้อผิดพลาด (Error) สำหรับสคริปต์ปัจจุบัน ค่าที่ยอมรับคือ constant name และ Value number
+
+## ค่าคงที่ที่กำหนดไว้มีดังนี้
+1. `E_Error` - ใช้บอกถึง runtime errors ที่ร้ายแรงที่ไม่สามารถกู้คืนได้และจะหยุดการทำงานของสคริปต์
+2. `E_Warning` - Error ที่ไม่ร้ายแรงซึ่งสคริปต์สามารถทำงานต่อไปได้
+3. `E_Parse` - Error ในการวิเคราะห์ compile-time ซึ่งจะถูกสร้างขึ้นโดยตัววิเคราะห์เท่านั้น
+4. `E_Notice` - ปัญหานี้แจ้งเกี่ยวกับ runtime ที่ระบุว่าสคริปต์พบสิ่งที่แสดงข้อผิดพลาด (Error) แต่อาจเกิดขึ้นได้ในขณะที่เรียกใช้สคริปต์ปกติ
+5. `E_Core_Error` - ในระหว่างการ Start ของ PHP อาจมี Error ร้ายแรงเกิดขึ้นซึ่งเกิดจาก PHP core
+6. `E_Core_Warning` - Error ที่ไม่ร้ายแรงซึ่งเกิดขึ้นระหว่างการ  Start ครั้งแรกของ PHP ซึ่งสร้างโดย PHP core
+7. `E_Compile_Error` - Error ร้ายแรงซึ่งเกิดขึ้นระหว่าง compile-time สิ่งเหล่านี้สร้างขึ้นโดยกลไกการเขียน Zend สคริปต์ 
+8. `E_Compile_Warning` - คล้ายกับ `E_Compile_Error` คำเตือน compile-time การแสดงผลเหล่านี้หรือเรียกได้ว่าเป็น Error ที่ไม่ร้ายแรง  และถูกสร้างโดยเครื่องมือเขียน  Zend สคริปต์
+9. `E_User_Error` - Error ที่สร้างขึ้นโดยผู้ใช้ คล้ายกับ `E_ERROR` ยกเว้นว่าสร้างขึ้นโดยใช้ฟังก์ชัน PHP ในโค้ด PHP
+10. `E_All` - Error นี้เหมือนกับการรวมกันของทั้งหมดข้างต้น ซึ่งรองรับ Error และคำเตือนทั้งหมดยกเว้น `E_STRICT`
 
 ### การคืนค่า
 
@@ -52,7 +64,7 @@ ini_set('error_reporting', E_ALL);
 
 ```php
 <?php
-// ทำการจัดการ Error เอง
+// จัดการ Error เอง
 error_reporting(0);
 
 // ฟังก์ชันการจัดการ Error ที่กำหนดโดยผู้ใช้
@@ -155,5 +167,6 @@ $t3 = distance($a, $b) . "\n";
 
 #### Reference
 - https://www.php.net/manual/en/function.error-reporting.php
+- https://www.educba.com/error_reporting-in-php/
 - https://www.macs.hw.ac.uk/~hwloidl/docs/PHP/ref.errorfunc.html#e-error
 
