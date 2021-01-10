@@ -24,26 +24,26 @@ error_reporting ( int $level = ? ) : int
 ```php 
 <?php
 
-// Turn off all error reporting
+// ปิดทุกรายงาน Error
 error_reporting(0);
 
-// Report simple running errors
+// รายงาน Error ในการทำงานง่าย ๆ
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
-// Reporting E_NOTICE can be good too (to report uninitialized
-// variables or catch variable name misspellings ...)
+// การรายงาน `E_ NOTICE` สามารถทำได้ดีเหมือนกัน (ในการรายงานแบบไม่เปิดเผย)
+// ตัวแปรหรือจับชื่อตัวแปรที่สะกดคำผิด... )
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
-// Report all errors except E_NOTICE
+// รายงาน Error ทั้งหมดยกเว้น `E_ NOTICE`
 error_reporting(E_ALL & ~E_NOTICE);
 
-// Report all PHP errors (see changelog)
+// รายงาน Error ทั้งหมดของ PHP (ดู changlog)
 error_reporting(E_ALL);
 
-// Report all PHP errors
+// รายงาน Error ทั้งหมดของ PHP
 error_reporting(-1);
 
-// Same as error_reporting(E_ALL);
+// เหมือนกับ `error_reporting(E_ALL);`
 ini_set('error_reporting', E_ALL);
 
 ?>
@@ -52,17 +52,17 @@ ini_set('error_reporting', E_ALL);
 
 ```php
 <?php
-// we will do our own error handling
+// ทำการจัดการ Error เอง
 error_reporting(0);
 
-// user defined error handling function
+// ฟังก์ชันการจัดการ Error ที่กำหนดโดยผู้ใช้
 function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars) {
-    // timestamp for the error entry
+    // timestamp สำหรับรายการ Error
     $dt = date("Y-m-d H:i:s (T)");
 
-    // define an assoc array of error string
-    // in reality the only entries we should
-    // consider are 2,8,256,512 and 1024
+    // แก้ไขอาร์เรย์ของสตริงที่ Error
+    // จริง ๆ แล้วควรทำแค่รายการเดียว
+    // มี 2,8,256,512 และ 1024
     $errortype = array (
                 1    =>  "Error",
                 2    =>  "Warning",
@@ -76,7 +76,7 @@ function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars) {
                 512  =>  "User Warning",
                 1024 =>  "User Notice"
                 );
-    // set of errors for which a var trace will be saved
+    // Set ของ Error
     $user_errors = array(E_USER_ERROR, E_USER_WARNING, E_USER_NOTICE);
     
     $err = "<errorentry>\n";
@@ -94,7 +94,7 @@ function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars) {
     // for testing
     // echo $err;
 
-    // save to the error log, and e-mail me if there is a critical user error
+    // บันทึก Error ลงใน error log `error_log()` และให้ส่งอีเมลให้หากมี Error ร้ายแรงของผู้ใช้
     error_log($err, 3, "/usr/local/php4/error.log");
     if ($errno == E_USER_ERROR)
         mail("phpdev@example.com", "Critical User Error", $err);
@@ -132,10 +132,10 @@ function distance($vect1, $vect2) {
 
 $old_error_handler = set_error_handler("userErrorHandler");
 
-// undefined constant, generates a warning
+// ค่าคงที่ที่ไม่ได้กำหนด, ให้ generates a warning  
 $t = I_AM_NOT_DEFINED;
 
-// define some "vectors"
+// กำหนดเวกเตอร์บางส่วน
 $a = array(2, 3, "foo");
 $b = array(5.5, 4.3, -1.6);
 $c = array (1, -3);
