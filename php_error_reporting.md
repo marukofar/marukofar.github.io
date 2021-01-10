@@ -11,7 +11,7 @@ error_reporting ( int $level = ? ) : int
 
 ### Parameters 
 
-- `level` - 
+- `level` - สำหรับกำหนด level การรายงานข้อผิดพลาด (Error) สำหรับสคริปต์ปัจจุบัน
 
 ### การคืนค่า
 
