@@ -1,7 +1,7 @@
 ![](images/day6.png)
 
 # PHP error_reporting()
-`error_reporting()` ใช้สำหรับแสดงข้อผิดพลาด (Error) ของโปรแกรม PHP โดยแสดงว่ามีข้อผิดพลาดอะไร เพื่อ Dev สามารถแก้ไขได้ถูกจุด ในด้าน Security หากข้อผิดพลาดเกิดไปแสดงต่อผู้ไม่ประสงค์ดี สามารถนำไปสู่การแฮกได้  
+`error_reporting()` ใช้สำหรับแสดงข้อผิดพลาด (Error) ของโปรแกรม PHP โดยแสดงว่ามีข้อผิดพลาดอะไร เพื่อ Dev สามารถแก้ไขได้ง่ายและถูกจุด สะดวกต่อการทำ Debug ในด้าน Security หากข้อผิดพลาดเกิดไปแสดงต่อผู้ไม่ประสงค์ดี สามารถนำไปสู่การแฮกได้  
 
 ### รูปแบบการใช้งาน
 
@@ -11,58 +11,48 @@ error_reporting ( int $level = ? ) : int
 
 ### Parameters 
 
-- value - ค่าที่จะกรอง
-- filter - 
-- options - 
+- `level` - 
 
 ### การคืนค่า
 
-`filter_var()` ส่งคืนข้อมูลที่กรองแล้ว หรือ False หากการกรองไม่สำเร็จ
+จะคืนค่า level ของ`error_reporting` ก่อนหน้า หรือ level ปัจจุบันหากไม่มีการกำหนด level parameter
 
-### ตัวอย่างการใช้ `filter_var()`
+### ตัวอย่างการใช้ `error_reporting()`
 
-### ตัวอย่างแบบที่ 1 ตรวจสอบว่าเป็นที่อยู่อีเมลที่ถูกต้องหรือไม่
+### ตัวอย่างแบบที่ 1 
 
 ```php 
 <?php
-// Variable to check
-$email = "far@maruko.com";
 
-// Validate email
-if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo("$email is a valid email address");
-} else {
-    echo("$email is not a valid email address");
-}
+// Turn off all error reporting
+error_reporting(0);
+
+// Report simple running errors
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+
+// Reporting E_NOTICE can be good too (to report uninitialized
+// variables or catch variable name misspellings ...)
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+
+// Report all errors except E_NOTICE
+error_reporting(E_ALL & ~E_NOTICE);
+
+// Report all PHP errors (see changelog)
+error_reporting(E_ALL);
+
+// Report all PHP errors
+error_reporting(-1);
+
+// Same as error_reporting(E_ALL);
+ini_set('error_reporting', E_ALL);
+
 ?>
 ```
 #### Output: 
 
-```bash
-far@maruko.com is a valid email address
-```
-### ตัวอย่างแบบที่ 1 ตรวจสอบอีเมลว่ารูปแบบถูกต้องหรือไม่
 
-```php 
-<?php
-// Variable to check
-$email = "far@maruko.com";
-
-// Validate email
-if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo("$email is a valid email address");
-} else {
-    echo("$email is not a valid email address");
-}
-?>
-```
-#### Output: 
-
-```bash
-far@maruko.com is a valid email address
-```
 
 #### Reference
-- https://www.php.net/manual/en/function.filter-var.php
+- https://www.php.net/manual/en/function.error-reporting.php
 
 
