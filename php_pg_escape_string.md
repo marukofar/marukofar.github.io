@@ -24,12 +24,12 @@ pg_escape_string ( resource $connection = ? , string $data ) : string
 
 ### Parameters 
 
-- connection
-- data
+- connection - หมายเลขอ้างอิงที่เป็นทางเลือกสำหรับจัดการการเชื่อมต่อของสตริง ที่ควรจะหลบหนี (escaped) จากการส่งไป
+- data - สตริงที่ต้องการหลบหนี (escape)
 
 ### การคืนค่า
 
-`pg_escape_string()` 
+`pg_escape_string()` จะคืนค่าเป็นอาร์กิวเมนต์ของสตริง + อักขระที่เพิ่มมา
 
 ### ตัวอย่างการใช้ `pg_escape_string()`
 
