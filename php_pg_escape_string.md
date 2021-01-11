@@ -26,15 +26,22 @@ pg_escape_string ( resource $connection = ? , string $data ) : string
 
 ### ตัวอย่างการใช้ `pg_escape_string()`
 
-### ตัวอย่างแบบที่ 1
+### ตัวอย่าง
 
 ```php 
-
-```
-#### Output: 
-
-```bash
-
+<?php 
+  // Connect to the database
+  $dbconn = pg_connect('dbname=foo');
+  
+  // Read in a text file (containing apostrophes and backslashes)
+  $data = file_get_contents('letter.txt');
+  
+  // Escape the text data
+  $escaped = pg_escape_string($data);
+  
+  // Insert it into the database
+  pg_query("INSERT INTO correspondence (name, data) VALUES ('My letter', '{$escaped}')");
+?>
 ```
 
 #### Reference
