@@ -39,3 +39,4 @@ pg_escape_string ( resource $connection = ? , string $data ) : string
 
 #### Reference
 - https://www.php.net/pg_escape_string
+- https://alexwebdevelop.com/sql-injection/
