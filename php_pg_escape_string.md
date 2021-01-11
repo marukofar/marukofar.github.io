@@ -6,7 +6,7 @@
 ## SQL injection คืออะไร?
 การ..
 จากข้อมูลของ [OWASP](https://owasp.org/www-project-top-ten/2017/) OWASP Top 10 Application Security Risks - 2017 จะเห็นได้ว่า SQL injection attacks เป็นช่องโหว่หรือภัยคุกคามต่อความปลอดภัยของเว็บไซต์ที่เหล่าผู้ไม่ประสงค์(Hacker) ใช้งานมากเป็นอันดับ 1
-
+![](images/day7-1.png)
 
 
 ### รูปแบบการใช้งาน
