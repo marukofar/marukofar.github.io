@@ -40,16 +40,16 @@ pg_escape_string ( resource $connection = ? , string $data ) : string
 
 ```php 
 <?php 
-  // Connect to the database
-  $dbconn = pg_connect('dbname=foo');
+  // เชื่อมต่อฐานข้อมูล 
+  $dbconn = pg_connect('dbname=Maruko');
   
-  // Read in a text file (containing apostrophes and backslashes)
+  // สั่งให้อ่านจาก text file (ประกอบไปด้วย apostrophes(') และ backslashes(\))
   $data = file_get_contents('letter.txt');
   
-  // Escape the text data
+  // Escape ข้อมูลจากตัวแปร $data
   $escaped = pg_escape_string($data);
   
-  // Insert it into the database
+  // แทรกข้อมูลลงในฐานข้อมูล
   pg_query("INSERT INTO correspondence (name, data) VALUES ('My letter', '{$escaped}')");
 ?>
 ```
