@@ -1,6 +1,6 @@
 ![](images/day7.png)
 
-# pg_escape_string
+# PHP pg_escape_string
 `pg_escape_string()` ใช้หลีกเลี่ยงสตริง(ทุกตัวแปร) หรือเลี่ยงการใช้ตัวอักขระพิเศษในคำสั่ง sql เช่น เครื่องหมาย " เครื่องหมาย ' เป็นต้น ที่ผ่านการป้อนค่าเข้ามาของผู้ใช้ ฟังก์ชันนี้ใช้สำหรับจัดการฐานข้อมูล PostgreSQL หากใช้ MySQL จะใช้ฟังก์ชัน `mysql_escape_string()` แทน ซึ่งฟังก์ชันเหล่านี้สามารถป้องกัน SQL injection attack ได้
 
 ## SQL injection คืออะไร?
