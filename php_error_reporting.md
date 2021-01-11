@@ -1,7 +1,7 @@
 ![](images/day6.png)
 
 # PHP error_reporting()
-`error_reporting()` ใช้สำหรับแสดงข้อผิดพลาด (Error) ของโปรแกรม PHP โดยแสดงว่ามีข้อผิดพลาดอะไร เพื่อ Dev สามารถแก้ไขได้ง่ายและถูกจุด สะดวกต่อการทำ Debug ในด้าน Security หากข้อผิดพลาดเกิดไปแสดงต่อผู้ไม่ประสงค์ดีสามารถนำไปสู่การแฮกได้  
+`error_reporting()` ใช้สำหรับแสดงข้อผิดพลาด (Error) ของโปรแกรม PHP โดยแสดงว่ามีข้อผิดพลาดอะไรเกิดขึ้น เพื่อ Dev สามารถแก้ไขได้ง่ายและถูกจุด สะดวกต่อการทำ Debug ในด้าน Security หากข้อผิดพลาดเกิดไปแสดงต่อผู้ไม่ประสงค์ดีสามารถนำไปสู่การแฮกได้  
 
 ### รูปแบบการใช้งาน
 
@@ -42,7 +42,7 @@ error_reporting ( int $level = ? ) : int
 ```php 
 <?php
 
-// ปิดทุกรายงาน Error
+// ปิดทุกรายงานข้อผิดพลาด
 error_reporting(0);
 
 // รายงานข้อผิดพลาดในการทำงานง่าย ๆ
@@ -112,7 +112,7 @@ function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars) {
     // for testing
     // echo $err;
 
-    // บันทึก Error ลงใน error log `error_log()` และให้ส่งอีเมลให้หากมี Error ร้ายแรงของผู้ใช้
+    // บันทึกข้อผิดพลาดลงใน error log `error_log()` และให้ส่งอีเมลให้หากมีข้อผิดพลาดร้ายแรงของผู้ใช้
     error_log($err, 3, "/usr/local/php4/error.log");
     if ($errno == E_USER_ERROR)
         mail("phpdev@example.com", "Critical User Error", $err);
