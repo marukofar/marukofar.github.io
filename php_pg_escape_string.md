@@ -36,7 +36,7 @@ pg_escape_string ( resource $connection = ? , string $data ) : string
 
 ### ตัวอย่างการใช้ `pg_escape_string()`
 
-### ตัวอย่าง
+### ตัวอย่างที่ 1
 
 ```php 
 <?php 
@@ -52,6 +52,17 @@ pg_escape_string ( resource $connection = ? , string $data ) : string
   // แทรกข้อมูลลงในฐานข้อมูล
   pg_query("INSERT INTO correspondence (name, data) VALUES ('My letter', '{$escaped}')");
 ?>
+```
+### ตัวอย่างที่ 2
+
+```php
+ static function find($h)
+ {
+     $db = Zend_Registry::get('db');
+     $h = pg_escape_string($h);
+     $sql = "select * from auth_hash where hash='{$h}'";
+     return $db->fetchRow($sql);
+ }
 ```
 
 #### Reference
