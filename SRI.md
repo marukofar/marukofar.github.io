@@ -25,9 +25,19 @@
 ```bash
 openssl dgst -sha384 -binary FILENAME.js | openssl base64 -A
 ```
-หรือสามารถใช้เครื่องมือที่เรียกว่า [srihash.org](https://www.srihash.org/).
+หรือสามารถใช้ tool ที่เรียกว่า [srihash.org](https://www.srihash.org/).
 
 ![](images/sri-hash-generator-lg@2x.webp)
 
+tool นี้เพียงแค่เราคัดลอก URL ของ resource ที่gikต้องการสร้างแฮชและจะส่งคืนองค์ประกอบ `<link>` หรือ `<script>` ที่จัดฟอร์แมตอย่างถูกต้องสำหรับ resource นั้น ตัวอย่างเช่น สมมติว่าเราต้องการสร้างแฮชสำหรับไฟล์ Font Awesome ซึ่งโฮสต์บนเซิร์ฟเวอร์ของเรา: 
 
+```bash
+https://cdn.keycdn.com/css/font-awesome-4.4.0.min.css
+```
+
+เราสามารถป้อนเนื้อหานี้ลงใน tool `srihash` และจะสร้างผลลัพธ์ต่อไปนี้: 
+
+```bash
+<link rel="stylesheet" href="https://cdn.keycdn.com/css/font-awesome-4.4.0.min.css" integrity="sha384-MI32KR77SgI9QAPUs+6R7leEOwtop70UsjEtFEezfKnMjXWx15NENsZpfDgq8m8S" crossorigin="anonymous">
+```
 
