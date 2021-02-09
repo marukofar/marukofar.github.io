@@ -59,3 +59,5 @@ Content-Security-Policy: require-sri-for script;
 Content-Security-Policy: require-sri-for script style;
 ```
 **การกำหนดสิ่งนี้ทำให้ Stylesheets หรือเนื้อหา Scripts ใด ๆ ที่ไม่มีความสมบูรณ์จะไม่ถูกโหลด**
+
+## Subresource integrity tool
