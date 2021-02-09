@@ -22,10 +22,12 @@
 
 ## การสร้าง Subresource Integrity Hash
 
-```bach
+```bash
 openssl dgst -sha384 -binary FILENAME.js | openssl base64 -A
 ```
+หรือสามารถใช้เครื่องมือที่เรียกว่า [srihash.org](https://www.srihash.org/).
 
+![](images/sri-hash-generator-lg@2x.webp)
 
 
 
