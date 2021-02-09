@@ -47,8 +47,15 @@ https://cdn.keycdn.com/css/font-awesome-4.4.0.min.css
 ```bash
 Content-Security-Policy: require-sri-for style;
 ```
-นอกจากนี้หากต้องการให้ไฟล์ JavaScript ทั้งหมดใช้ integrity ของ SRI เราสามารถใช้สิ่งต่อไปนี้:
+นอกจากนี้หากต้องการให้ไฟล์ JavaScript ทั้งหมดใช้ Integrity ของ SRI เราสามารถใช้สิ่งต่อไปนี้:
 
 ```bash
 Content-Security-Policy: require-sri-for script;
 ```
+
+เรายังสามารถรวมทั้ง Scripts และ Stylesheets ไว้ในกฎข้อเดียวเช่น:
+
+```bash
+Content-Security-Policy: require-sri-for script style;
+```
+** **การกำหนดสิ่งนี้ทำให้ Stylesheets หรือเนื้อหา Scripts ใด ๆ ที่ไม่มีความสมบูรณ์จะไม่ถูกโหลด **
