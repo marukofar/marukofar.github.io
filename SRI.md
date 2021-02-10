@@ -89,3 +89,17 @@ const compiler = webpack({
     ],
 });
 ```
+
+## สรุป
+
+`SRI` เป็นวิธีที่ยอดเยี่ยมในการช่วยให้แน่ใจว่าเนื้อหาของเราได้รับการปกป้องไม่ถูกแก้ไข ในกรณีที่ผู้ไม่หวังดีเข้ามาครอบงำไฟล์เว็บของเรา และพยายามใส่ malicious เข้าไป หากเบราว์เซอร์ของเรา compatible โดยใช้ Subresource integrity เบราว์เซอร์จะตรวจพบว่าไฟล์มีการเปลี่ยนแปลงและแฮชไม่ตรงกัน ดังนั้นแม้ว่าผู้โจมตีจะสามารถปล่อย malicious code ลงในไฟล์ได้ แต่ผู้เยี่ยมชมเว็บไซต์ก็จะไม่ได้รับอันตรายเนื่องจากไฟล์จะไม่โหลดเท่านั้นซึ่งจะช่วยเพิ่มความปลอดภัยและการป้องกันได้
+
+#### Reference:
+
++ https://www.keycdn.com/support/subresource-integrity
++ https://medium.com/danaidesign/security-your-js-css-file-from-cdn-with-subresource-integrity-929a70152ea6
++ https://www.rahulpnath.com/blog/subresource-integrity-sri/
+
+---
+
+### Written by: Fareed Marnleb
