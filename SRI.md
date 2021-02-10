@@ -61,3 +61,5 @@ Content-Security-Policy: require-sri-for script style;
 **การกำหนดสิ่งนี้ทำให้ Stylesheets หรือเนื้อหา Scripts ใด ๆ ที่ไม่มีความสมบูรณ์จะไม่ถูกโหลด**
 
 ## Subresource integrity tool
+
+นอกจาก tool srihash ที่กล่าวถึงข้างต้นแล้วยังมี tool อื่น ๆ ที่สามารถช่วยให้นำ Subresource integrity ไปใช้ได้อย่างมีประสิทธิภาพ สิ่งที่จะพูดถึงในบทความนี้เรียกว่า [webpack-subresource-integrity](https://www.npmjs.com/package/webpack-subresource-integrity). 
