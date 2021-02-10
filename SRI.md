@@ -65,3 +65,27 @@ Content-Security-Policy: require-sri-for script style;
 นอกจาก tool srihash ที่กล่าวถึงข้างต้นแล้วยังมี tool อื่น ๆ ที่สามารถช่วยให้นำ Subresource integrity ไปใช้ได้อย่างมีประสิทธิภาพ สิ่งที่จะพูดถึงในบทความนี้เรียกว่า [webpack-subresource-integrity](https://www.npmjs.com/package/webpack-subresource-integrity). 
 
 ![](images/webpack.png)
+
+`webpack` คือ เครื่องมือที่ใช้ในการรวม module ที่เราเขียน ให้เป็นไฟล์ที่เราจะนำไปใช้งานจริงๆ ความสามารถหลักๆของมันมีดังนี้ครับ รวม module หลายๆ module ให้กลายเป็นไฟล์ๆเดียว (หรือมากกว่าก็ได้) แปลง ES6, JSX, CSS เป็นต้น ให้สามารถใช้งานบน browser ทั่วไปได้ ปลั๊กอินนี้มีขั้นตอนการติดตั้งที่ค่อนข้างง่าย: 
+
+```bash
+npm install webpack-subresource-integrity --save-dev
+```
+
+เมื่อติดตั้งแล้วให้ใช้ตัวอย่างการกำหนดค่า webpack ต่อไปนี้ตามที่กำหนดไว้ในหน้าปลั๊กอิน: 
+
+```javascript
+import SriPlugin from 'webpack-subresource-integrity';
+
+const compiler = webpack({
+    output: {
+        crossOriginLoading: 'anonymous',
+    },
+    plugins: [
+        new SriPlugin({
+            hashFuncNames: ['sha256', 'sha384'],
+            enabled: process.env.NODE_ENV === 'production',
+        }),
+    ],
+});
+```
