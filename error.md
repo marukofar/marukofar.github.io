@@ -9,14 +9,17 @@ class NotAllowFileError(Exception):
 
 try:
     f1 = open('neis0736.txt')
-    # f2 = open('ab.txt','x')
-    # f3 = open('def.txt')
+    
+    f2 = open('ab.txt','x')
+    
+    f3 = open('def.txt')
+    
     f4 = open('sdf.txt')
 
-    # if f3.name == 'def.txt':
-    #     raise NotAllowFileError(f3.name)
+    if f3.name == 'def.txt':
+         raise NotAllowFileError(f3.name)
 
-    # var = bad_var
+    var = bad_var
 
 except FileNotFoundError as e:
     print(e)
