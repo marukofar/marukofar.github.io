@@ -1,6 +1,7 @@
 # Error And Exception Handling
 ## Anan & Fareed
 
+```python 
 class NotAllowFileError(Exception):
     def __init__(self, filename):
         self.message = filename + 'is not allowed'
@@ -36,3 +37,5 @@ else:
 
 finally:
     print('End Process')
+
+```
