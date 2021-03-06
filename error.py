@@ -1,3 +1,6 @@
+## Error And Exception Handling
+## Anan & Fareed
+
 class NotAllowFileError(Exception):
     def __init__(self, filename):
         self.message = filename + 'is not allowed'
