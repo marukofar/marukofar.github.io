@@ -1,4 +1,4 @@
-## Error And Exception Handling
+# Error And Exception Handling
 ## Anan & Fareed
 
 class NotAllowFileError(Exception):
